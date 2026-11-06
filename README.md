@@ -13,5 +13,4 @@ Current solutions:
 7) LaunchXL-f28P55x
 8) LaunchXL-f28P65x
 
-maintained by AI interns: leo, raph, michel & don.
 contact support@syncmotor.com for help.
