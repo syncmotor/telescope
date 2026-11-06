@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSpec>
+  <project name="blinky_flash" device="TMS320F28069" cgtVersion="22.6.1.LTS" outputFormat="COFF" launchWizard="False" linkerCommandFile="F28069M.cmd"
+    compilerBuildOptions="--abi=coffabi -v28 -ml -mt --float_support=fpu32 --vcu_support=vcu0 -O2 --define=_FLASH --define=LARGE_MODEL --diag_warning=225 --diag_suppress=10063 --display_error_number -I${CG_TOOL_ROOT}/include -I${PROJECT_ROOT}/device/include"
+    linkerBuildOptions="--entry_point=code_start --stack_size=0x200 --rom_model -m blinky_flash.map -i${CG_TOOL_ROOT}/lib -i${CG_TOOL_ROOT}/include -lrts2800_fpu32.lib">
+    <configuration name="CPU1_FLASH" compilerBuildOptions="--abi=coffabi -v28 -ml -mt --float_support=fpu32 --vcu_support=vcu0 -O2 --define=_FLASH --define=LARGE_MODEL --diag_warning=225 --diag_suppress=10063 --display_error_number -I${CG_TOOL_ROOT}/include -I${PROJECT_ROOT}/device/include" linkerBuildOptions="--entry_point=code_start --stack_size=0x200 --rom_model -m blinky_flash.map -i${CG_TOOL_ROOT}/lib -i${CG_TOOL_ROOT}/include -lrts2800_fpu32.lib"/>
+    <file path="main.c" targetDirectory="" action="copy"/>
+    <file path="device" targetDirectory="" action="copy"/>
+    <file path="F28069M.cmd" targetDirectory="" action="copy"/>
+    <file path="F2806x_Headers_nonBIOS.cmd" targetDirectory="" action="copy"/>
+    <file path="targetConfigs/TMS320F28069.ccxml" targetDirectory="targetConfigs" action="copy"/>
+  </project>
+</projectSpec>
