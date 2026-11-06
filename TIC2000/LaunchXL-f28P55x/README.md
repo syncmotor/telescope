@@ -16,7 +16,7 @@ GPIO0 (EPWM1A on **J4 pin 40**, BoosterPack site 1) was chosen instead of GPIO8 
 | CGT (CCS 20.3.1 on Darshan PC) | **22.6.2.LTS** |
 | DSLite (flash verified) | from **CCS 20.3.1** (`C:\ti\ccs2031\...`) |
 | CGT (box / `build.sh`) | 22.6.1.LTS |
-| C2000Ware | v26.02.00.00.LTS (`REL_C2000Ware_v26.02.00.LTS`) |
+| C2000Ware | v26.02.00.00.LTS (`REL_C2000Ware_v26.02.00.00.LTS`) |
 | Mirror | TexasInstruments/c2000ware-core-sdk @ `699b8c6aa190cf7430a36bdcf7f5b1ea2e928063` |
 | driverlib.lib built with | TI C2000 CGT **v25.11.1.LTS** (EABI ELF; links OK with 22.6.1) |
 | Device | TMS320F28P550SJ9 |

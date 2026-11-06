@@ -16,7 +16,7 @@ LED4 and LED5 blink alternately every 0.5 s, and **J4-40** runs a 20 kHz / 40% d
 | CGT (CCS 20.3.1 on Darshan PC) | **22.6.2.LTS** |
 | DSLite (flash verified) | from **CCS 20.3.1** (`C:\ti\ccs2031\...`) |
 | CGT (box / `build.sh`) | 22.6.1.LTS |
-| C2000Ware | v26.02.00.00.LTS (`REL_C2000Ware_v26.02.00.LTS`) |
+| C2000Ware | v26.02.00.00.LTS (`REL_C2000Ware_v26.02.00.00.LTS`) |
 | Mirror | TexasInstruments/c2000ware-core-sdk @ `699b8c6aa190cf7430a36bdcf7f5b1ea2e928063` |
 | driverlib_eabi.lib producer | TI C2000 CGT **v25.11.1.LTS** (links OK with 22.6.1) |
 | Device | TMS320F280049C |
