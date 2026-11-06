@@ -3,14 +3,14 @@ Synchronous drives repository
 
 embeddedAI to Texas Instruments C2000 Microcontrollers
 Current solutions:
-1) LaunchXL-f28379d
-2) LaunchXL-f28P65X
-3) LaunchXL-f28P55X
-4) LaunchXL-f28069M
-5) LaunchXL-f2800157
-6) LaunchXL-f280049c
-7) LaunchXL-f280025c
-8) LaunchXL-f28027F
+o LaunchXL-f28027
+o LaunchXL-f280025c
+o LaunchXL-f280049c
+o LaunchXL-f28069M
+o LaunchXL-f2800157
+o LaunchXL-f28379d
+o LaunchXL-f28P55x
+o LaunchXL-f28P65x
 
 maintained by AI interns: leo, raph, michel & don.
 contact support@syncmotor.com for help.
