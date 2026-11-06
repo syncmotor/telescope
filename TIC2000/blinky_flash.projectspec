@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSpec>
+  <project name="blinky_flash" device="TMS320F28379D" cgtVersion="22.6.1.LTS" outputFormat="ELF" launchWizard="False" linkerCommandFile="2837xD_FLASH_lnk_cpu1.cmd"
+    compilerBuildOptions="--abi=eabi -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -O2 --define=CPU1 --define=_FLASH --define=_LAUNCHXL_F28379D --diag_warning=225 --diag_suppress=10063 --display_error_number -I${PROJECT_ROOT}/device -I${PROJECT_ROOT}/device/driverlib"
+    linkerBuildOptions="--entry_point=code_start --stack_size=0x100 --rom_model -l${PROJECT_ROOT}/lib/driverlib_eabi.lib">
+    <configuration name="CPU1_FLASH" compilerBuildOptions="--abi=eabi -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -O2 --define=CPU1 --define=_FLASH --define=_LAUNCHXL_F28379D --diag_warning=225 --diag_suppress=10063 --display_error_number -I${PROJECT_ROOT}/device -I${PROJECT_ROOT}/device/driverlib" linkerBuildOptions="--entry_point=code_start --stack_size=0x100"/>
+    <file path="main.c" targetDirectory="" action="copy"/>
+    <file path="device" targetDirectory="" action="copy"/>
+    <file path="lib" targetDirectory="" action="copy"/>
+    <file path="2837xD_FLASH_lnk_cpu1.cmd" targetDirectory="" action="copy"/>
+    <file path="targetConfigs/TMS320F28379D.ccxml" targetDirectory="targetConfigs" action="copy"/>
+  </project>
+</projectSpec>
