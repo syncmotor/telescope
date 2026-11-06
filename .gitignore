@@ -1,3 +1,10 @@
+# Debug folder
+*/Debug
+*/Hardware
+*/GUI
+*/CPU1_RAM
+*/CPU1_FLASH
+
 # Prerequisites
 *.d
 
@@ -17,7 +24,6 @@
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
@@ -30,11 +36,11 @@
 
 # Executables
 *.exe
-*.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+*.bat
 
 # Debug files
 *.dSYM/
@@ -44,12 +50,31 @@
 
 # Kernel Module Compile Results
 *.mod*
-*.cmd
 .tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.metadata/
 
-# debug information files
+# Misc files
+Thumbs.db
+
+# Simulink cache
+*.slxc
+*.autosave
+*.original
 *.dwo
+*.dmr
+*.sl_proj.tmw
+slprj/
+*_ert_rtw/
+*clangd*
+*html*
+*.d_raw
+
+# Python cache
+*.pyc
+
+# KiCad backup files
+*.zip
