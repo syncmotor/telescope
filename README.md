@@ -1,16 +1,17 @@
-# project telescope
-Synchronous drives repository
+# telescope
+embeddedAI for Texas Instruments C2000 Microcontrollers
 
-embeddedAI to Texas Instruments C2000 Microcontrollers
+Synchronous drives & inverters private limited repository
+
 Current solutions:
-o LaunchXL-f28027
-o LaunchXL-f280025c
-o LaunchXL-f280049c
-o LaunchXL-f28069M
-o LaunchXL-f2800157
-o LaunchXL-f28379d
-o LaunchXL-f28P55x
-o LaunchXL-f28P65x
+1) LaunchXL-f28027
+2) LaunchXL-f280025c
+3) LaunchXL-f280049c
+4) LaunchXL-f28069M
+5) LaunchXL-f2800157
+6) LaunchXL-f28379d
+7) LaunchXL-f28P55x
+8) LaunchXL-f28P65x
 
 maintained by AI interns: leo, raph, michel & don.
 contact support@syncmotor.com for help.
