@@ -80,5 +80,5 @@ slprj/
 *.zip
 # TIC2000: keep flash scripts and prebuilt images
 !TIC2000/**/*.bat
-!TIC2000/flash/*.out
-!TIC2000/flash/*.hex
+!TIC2000/**/flash/*.out
+!TIC2000/**/flash/*.hex
